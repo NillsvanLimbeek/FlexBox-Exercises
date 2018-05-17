@@ -25,10 +25,12 @@
 .side-bar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 20%;
+    padding: 2rem 0;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hotel-view {
