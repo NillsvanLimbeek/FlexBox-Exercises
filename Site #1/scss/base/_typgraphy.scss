@@ -8,6 +8,10 @@ body {
     line-height: .85;
     text-transform: uppercase;
 
+    &--white {
+        color: #fff;
+    }
+
     &--green {
         color: var(--color-green);
     }
@@ -15,6 +19,21 @@ body {
     &--grey {
         color: var(--color-grey);
     }
+
+    &--big {
+        font-size: 5rem;
+    }
+
+    &--small {
+        font-size: 3.5rem;
+    }
+}
+
+.heading-secondary {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1rem;
 }
 
 .text-heading {
@@ -22,6 +41,11 @@ body {
     color: var(--color-grey-light);
     margin-left: .5rem;
     text-transform: uppercase;
+}
+
+.text-regular {
+    color: #fff;
+    font-size: 1.3rem;
 }
 
 .icon-leaf {
