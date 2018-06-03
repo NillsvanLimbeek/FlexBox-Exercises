@@ -1,0 +1,35 @@
+.info {
+    display: flex;
+    justify-content: center;
+
+    &__boxes {
+        display: flex;
+        width: var(--row);
+        margin-bottom: 5rem;
+    }
+
+    &__box {
+        width: 37rem;
+        height: 16.5rem;
+
+        background: black;
+        overflow: hidden;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        opacity: .5;
+
+        transition: all .3s;
+
+        &:hover {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+    }
+}
