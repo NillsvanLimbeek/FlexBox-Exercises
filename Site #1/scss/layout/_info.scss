@@ -1,10 +1,16 @@
 .info {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    width: var(--row);
 
     &__boxes {
+        width: 100%;
+
         display: flex;
-        width: var(--row);
         margin-bottom: 5rem;
     }
 
@@ -31,5 +37,18 @@
             transform: scale(1.2);
             opacity: 1;
         }
+    }
+
+    &__circle-boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__circle-box {
+
+    }
+
+    &__icon {
+        font-size: 5rem;
     }
 }
